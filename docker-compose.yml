@@ -1,0 +1,8 @@
+version: "2.0"
+services:
+  ubuntu16_build:
+    build: ./docker/images/tools/dockerfile/
+    volumes:
+      - ./:/opt/package/  # 无需改变
+    command:
+      - /opt/entrypoint/entrypoint.bash

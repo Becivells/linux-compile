@@ -12,4 +12,8 @@ warning: implicit declaration of function 'helloword' is invalid in C99 [-Wimpli
 gcc -c func.c
 gcc -c main.c
 gcc -o main func.o main.o
-``
+```
+
+## 参考链接
+[1] [C语言-GCC编译多个C文件](https://blog.csdn.net/weixin_39089680/article/details/79375088)
+
