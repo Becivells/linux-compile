@@ -84,8 +84,6 @@ hello_SOURCES=main.c
 automake --add-missing
 ```
 
-
-
 ## 测试
 
 ```
@@ -94,15 +92,11 @@ make
 ./hello
 ```
 
-
-
 ## 打包
 
 ```
 make dist
 ```
-
-
 
 ## 参考链接
 
@@ -111,4 +105,6 @@ make dist
 [2]. [configure、 make、 make install 背后的原理(翻译)](https://juejin.im/post/5d51845551882525d374ea34)
 
 [3]. [configure和make install背后的故事](https://azyet.github.io/2015/06/20/configureAndMakeInstall/)
+
+[4]. [cmake与autoconf+automake的对比](https://blog.csdn.net/cnsword/article/details/7542696)
 
