@@ -1,0 +1,3 @@
+/opt/package/09-hello-cmake/CMakeFiles/edit_cache.dir
+/opt/package/09-hello-cmake/CMakeFiles/rebuild_cache.dir
+/opt/package/09-hello-cmake/CMakeFiles/hello.dir
