@@ -1,4 +1,4 @@
-# Configure项目创建
+# autotools 项目创建
 
 ![08-configure](../images/08-configure.jpg)
 
