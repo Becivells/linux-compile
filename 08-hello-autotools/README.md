@@ -108,3 +108,5 @@ make dist
 
 [4]. [cmake与autoconf+automake的对比](https://blog.csdn.net/cnsword/article/details/7542696)
 
+[5]. [使用autotools生成Makefile学习笔记](https://geesun.github.io/posts/2015/02/autotool.html)
+
