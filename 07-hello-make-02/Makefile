@@ -5,10 +5,10 @@
 
 
 FINAL:=main
-OBJECTS:=main.o func.o #代表后面所有的依赖文件
+OBJECTS:=main.o func.o
 $(FINAL):$(OBJECTS)
-    gcc $^ -o $(FINAL)#$^代表左边第一个依赖文件
+	gcc $^ -o $(FINAL)
 %.o:%.c
-    gcc -c $< -o $@
+	gcc -c $< -o $@
 clean:
-    rm *.o $(FINAL)
+	rm *.o $(FINAL)
