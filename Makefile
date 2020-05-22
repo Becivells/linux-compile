@@ -4,6 +4,7 @@ CURR_DIR := `pwd`
 .PHONY: tools
 tools:
 	docker-compose run ubuntu16_build /bin/bash
+	docker-compose rm -f
 
 .PHONY: build
 build:
