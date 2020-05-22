@@ -4,5 +4,5 @@ services:
     build: ./docker/images/tools/dockerfile/
     volumes:
       - ./:/root/  # 无需改变
-    command:
-      - /opt/entrypoint/entrypoint.bash
+    environment:
+      -  HOSTNAME=package
