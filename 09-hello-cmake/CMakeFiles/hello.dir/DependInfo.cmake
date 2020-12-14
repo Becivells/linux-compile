@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/opt/package/09-hello-cmake/main.c" "/opt/package/09-hello-cmake/CMakeFiles/hello.dir/main.c.o"
+  "/root/09-hello-cmake/main.c" "/root/09-hello-cmake/CMakeFiles/hello.dir/main.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

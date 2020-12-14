@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/opt/package/09-hello-cmake/main.c
+/root/09-hello-cmake/main.c
 stdio.h
 -
 
